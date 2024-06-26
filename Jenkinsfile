@@ -3,6 +3,7 @@ pipeline {
 
     tools {
         maven 'Maven'  // Utilise le Maven que vous avez configuré dans les outils globaux de Jenkins
+        jdk 'JDK17'    // Utilise le JDK que vous avez configuré dans les outils globaux de Jenkins
     }
 
     stages {
